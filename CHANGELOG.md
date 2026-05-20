@@ -1,5 +1,8 @@
 ## Unreleased
 
+## Release 2.3.3 (20 May 2026)
+*  Fix fatal error on declaration of Amadeus\Client\SoapClient::__doRequest is not compatible with the PHP 8.5 Soap client (https://github.com/amabnl/amadeus-ws-client/pull/503) - alexandr-sibov
+
 ## Release 2.3.2 (20 Oct 2025)
 *  Fix PHP 8.4 deprecation messages (https://github.com/amabnl/amadeus-ws-client/pull/493) - constantin-girsteoga
 *  Fixed warning on passing null to strlen when Amadeus returned null response instead of string (https://github.com/amabnl/amadeus-ws-client/pull/495) - alexandr-sibov
